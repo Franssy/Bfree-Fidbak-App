@@ -8,14 +8,13 @@
         <div class="body-text">
           <p class="header-text">Bridging<br> <span>communication gap</span><br> in the company.</p>
           <p class="description-text">A creative platform to encourage effective <span>communication</span> between Account Managers, Engineers and operations team within the organisation.</p>
-          <button> Get started</button>
+          <button> <strong>Get started</strong></button>
         </div>
       </div>
     </div>
     <div class="body-image">
-      <img src="../assets/Frame 51.jpg" alt="A lady sitting behind a laptop">
+      <!-- <img src="../assets/Frame 51.jpg" alt="A lady sitting behind a laptop"> -->
     </div>
-    
   </div>
 </template>
 
@@ -54,7 +53,7 @@
   position: relative;
   grid-gap: none;
 }
- 
+
 /* Bridging communication gap in the company */
 .header-text{
   font-family: poppins;
@@ -87,23 +86,24 @@ span{
 }
 
 button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   padding: 10px 30px;
-  position: relative;
-  width: 430px;
-  height: 68px;
+  /* position: absolute; */
+  width: 432px;
+  height: 60px;
   left: 0px;
-  top: calc(50% - 68px/2 + 168.5px);
+  top: calc(50% - 60px/2 + 174.5px);
   background: #00A4DB;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
-  margin-top: 0;
   color: #f7f7f7;
-  /* margin-bottom: 50px; */
-  /* margin: 50px 0px; */
 }
 
 .body-image{
+    background-image: url("../assets/Frame 51.jpg");
   position: relative;
   margin-right: 20px auto;
   margin-bottom: 60px;
